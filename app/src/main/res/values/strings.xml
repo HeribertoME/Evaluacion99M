@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">99 minutos</string>
+    <string name="title_login">Login</string>
+    <string name="title_sign_in">Iniciar sesión</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="button_sign_in">Iniciar Sesión</string>
+    <string name="google_maps_key">AIzaSyAM8SekQVEwu_Z6kyya3tVxqp_Fm3r_eNw</string>
+    <string name="text_alert">Alerta</string>
+    <string name="error_message">No disponible, intenta de nuevo más tarde</string>
+    <string name="text_alert_accept">Aceptar</string>
+    <string name="text_alert_gps_not_activate">Es necesario activar el GPS.</string>
+    <string name="text_alert_cancel">Cancelar</string>
+    <string name="map_location_error">No se ha podido encontrar su ubicación actual</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_map_title">Mapa</string>
+    <string name="tab_list_title">Mis lugares</string>
+</resources>
