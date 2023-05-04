@@ -32,11 +32,16 @@
         tools:layout="@layout/fragment_place_detail">
         <argument
             android:name="placeName"
-            app:argType="string"
-            android:defaultValue="null" />
+            android:defaultValue="null"
+            app:argType="string" />
         <argument
             android:name="placeId"
-            app:argType="integer"
-            android:defaultValue="-1" />
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/actionplaceDetailFragment_to_placesFragment"
+            app:destination="@id/placesFragment"
+            app:popUpTo="@id/placeDetailFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 </navigation>

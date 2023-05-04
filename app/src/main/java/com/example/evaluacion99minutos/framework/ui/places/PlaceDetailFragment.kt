@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.fragment.findNavController
 import com.example.evaluacion99minutos.R
 import com.example.evaluacion99minutos.databinding.FragmentPlaceDetailBinding
 import dagger.hilt.android.AndroidEntryPoint
@@ -42,7 +43,7 @@ class PlaceDetailFragment : Fragment() {
                 val name = editTextTitle.text.toString()
                 val description = editTextDescription.text.toString()
                 viewModel.save(name, description)
-                activity?.supportFragmentManager?.popBackStack()
+                findNavController().navigate(PlaceDetailFragmentDirections.actionplaceDetailFragmentToPlacesFragment())
             }
 
             viewLifecycleOwner.lifecycleScope.launch {
